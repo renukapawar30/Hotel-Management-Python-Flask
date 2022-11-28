@@ -1,0 +1,59 @@
+.bg-img{
+    background-image: url('/static/img/login8.jpg');
+    width: 1440px;
+    height: 740px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    position: absolute;
+    margin: 210px;
+    max-width: 350px;
+    padding: 20px;
+    background-color: rgb(161, 161, 61);
+    
+  }
+  
+  .container:hover{
+    box-shadow: 5px 10px 18px #417573c0;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  .btn {
+    background-color: rgb(87, 107, 47);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }

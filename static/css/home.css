@@ -1,0 +1,39 @@
+.service h1{
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline 6px;
+    color: rgb(68, 170, 201);
+}
+
+.service,h1:hover{
+    color: black;
+}
+
+.hotels h1{
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline 6px;
+    color: rgb(68, 170, 201);
+}
+.hotels,h1:hover{
+    color: black;
+}
+
+.about h1{
+    text-transform:uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline 6px;
+    color: rgb(68, 170, 201);
+}
+
+.about,h1:hover{
+    color: black;
+}
+
+.col:hover{
+    box-shadow: 8px 8px 5px gray;
+}
+
+.hotelhover:hover{
+    box-shadow: 8px 8px 5px gray;
+}
