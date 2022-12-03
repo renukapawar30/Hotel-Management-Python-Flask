@@ -27,7 +27,7 @@
                 <a class="nav-link active" aria-current="page" href="{{ url_for('booking') }}">Booking</a>
               </li>
               <li class="nav-item-right" >
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                <a class="nav-link active" aria-current="page" href="{{ url_for('contact') }}">Contact</a>
               </li>
               <li class="nav-item-right" >
                 <a class="nav-link active" aria-current="page" href="#">About us</a>
@@ -145,12 +145,9 @@
           </form>
       </div>
       <div id="booking_status" class="tabcontent">
-        <div class="border">
-          <table class="worddark"></br></br></br></br>
-           
-            <h1>something</h1>                   
-          </table>
-      </div>
+        {%for i in b %}
+        {{b['fname']}}
+        {% endfor %}
       </div>
       <script>
       function openCity(cityName,elmnt) {
